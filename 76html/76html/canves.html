@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <body>
+
+    <!-- This is the canvas area -->
+    <canvas id="myCanvas" width="200" height="100" style="border:1px solid black;"></canvas>
+
+    <script>
+      // Get the canvas and its drawing tool
+      const canvas = document.getElementById("myCanvas");
+      const ctx = canvas.getContext("2d");
+
+      // Draw a blue rectangle
+      ctx.fillStyle = "blue";
+      ctx.fillRect(20, 20, 150, 50);
+    </script>
+
+  </body>
+</html>
